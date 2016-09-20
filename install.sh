@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Check if config files exist, back them up if they do, and move new config files into the home
+# Check if config files exist, back them up if they do by adding the ".old" suffix, and move new config files into the home
 # directory.
 for file in vimrc tmux.conf
 do
